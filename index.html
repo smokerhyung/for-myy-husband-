@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Congrats!</title>
+  <style>
+    body {
+      background-color: white;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      margin-top: 100px;
+      overflow: hidden; /* so emojis don't cause scrollbars */
+    }
+    h1 {
+      font-size: 28px;
+      color: black;
+    }
+    img {
+      margin-top: 20px;
+      height: 250px;  /* change if needed */
+      width: 250px;   /* change if needed */
+    }
+    .confetti {
+      position: absolute;
+      top: -50px;
+      font-size: 30px;
+      animation: fall 4s linear infinite;
+    }
+    @keyframes fall {
+      0% { transform: translateY(-50px) rotate(0deg); opacity: 1; }
+      100% { transform: translateY(100vh) rotate(720deg); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Congratulations  for being not jobless 🎉</h1>
+  
+  <!-- Image space -->
+  <img src="https://i.pinimg.com/originals/7c/12/fa/7c12fae69e5388431ea18af2a07df3b5.gif" alt="Celebration Image" height="250" width="250">
+   <img src="https://i.pinimg.com/originals/6e/74/4f/6e744f679beafe4d6e2101af4a8e1d27.gif" alt="Celebration Image" height="250" width="250">
+    <img src="https://i.pinimg.com/originals/a0/62/bb/a062bb818f4dbbf259235e1da78383ad.gif" alt="Celebration Image" height="250" width="250">
+     <img src="https://i.pinimg.com/originals/70/d8/24/70d824baf70606ddb18bdde4b7f253c6.gif" alt="Celebration Image" height="250" width="250">
+
+
+  <!-- Flying 🎉 emojis -->
+  <div class="confetti" style="left:10%;">🎉</div>
+  <div class="confetti" style="left:30%; animation-delay:1s;">🎉</div>
+  <div class="confetti" style="left:50%; animation-delay:2s;">🎉</div>
+  <div class="confetti" style="left:70%; animation-delay:1.5s;">🎉</div>
+  <div class="confetti" style="left:90%; animation-delay:0.5s;">🎉</div>
+</body>
+</html>
